@@ -1,3 +1,5 @@
+int MINIMUM_NUMBER_OF_BRANCHES = 50;
+int MAXIMUM_NUMBER_OF_BRANCHES = 175;
 float angle;
 
 public void setup() 
@@ -7,9 +9,9 @@ public void setup()
   stroke(0);
   angle = radians(35); 
   translate(width / 2, height);
-  DrawTree(random(50, 175));
+  DrawTree(random(MINIMUM_NUMBER_OF_BRANCHES, MAXIMUM_NUMBER_OF_BRANCHES));
 }
-public void draw()
+void draw()
 {
 }
 
@@ -20,7 +22,7 @@ void keyPressed()
     background(255);
     angle = radians(35); 
     translate(width / 2, height);
-    DrawTree(random(50, 175));
+    DrawTree(random(MINIMUM_NUMBER_OF_BRANCHES, MAXIMUM_NUMBER_OF_BRANCHES));
   }
 }
 
