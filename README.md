@@ -7,7 +7,9 @@ This is a canopy fractal tree simulation. The canopy fractal tree is created by 
 </p>
 
 <br>
-The example bellow shows the fractal tree generation based on the minimum amount of 50 branches and the maximum amount of 175 branches.
+The example bellow shows the fractal tree generation based on the following parameters:
+<br>MINIMUM_NUMBER_OF_BRANCHES = 50;
+<br>MAXIMUM_NUMBER_OF_BRANCHES = 175;
 
 <br>
 <img src="data/example.gif">
