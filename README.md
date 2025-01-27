@@ -12,4 +12,5 @@ The example bellow shows the fractal tree generation based on the following para
 <br>MAXIMUM_NUMBER_OF_BRANCHES = 175;
 
 <br>
+<br>
 <img src="data/example.gif">
